@@ -3,19 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="eb68d1cd-4e12-496e-a61d-6796dc490324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysis/analysis.txt" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/analysis.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/BaseMarkov.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/BaseWordMarkov.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/META-INF/Markov-WordGram-Fall19.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/MarkovDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/MarkovWordDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/SimpleWordGramDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/TextSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/WordGram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/WordGramBenchmark.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Markov-WordGram-Fall19/WordGramTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WordGram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordGram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Markov-WordGram-Fall19.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Markov-WordGram-Spring20.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +34,10 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,20 +54,20 @@
   <component name="RunManager" selected="Application.WordGramBenchmark">
     <configuration name="SimpleWordGramDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleWordGramDriver" />
-      <module name="Markov-WordGram-Fall19" />
+      <module name="Markov-WordGram-Spring20" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="WordGramBenchmark" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WordGramBenchmark" />
-      <module name="Markov-WordGram-Fall19" />
+      <module name="Markov-WordGram-Spring20" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="WordGramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Markov-WordGram-Fall19" />
+      <module name="Markov-WordGram-Spring20" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WordGramTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -122,54 +113,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
