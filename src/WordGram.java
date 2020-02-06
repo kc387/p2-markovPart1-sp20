@@ -24,7 +24,7 @@ public class WordGram {
 		myToString = null;
 		myHash = 0;
 
-		// TODO: initialize all instance variable
+		// TODO: initialize myWords
 	}
 
 	/**
