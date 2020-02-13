@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb68d1cd-4e12-496e-a61d-6796dc490324" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="eb68d1cd-4e12-496e-a61d-6796dc490324" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,18 +37,6 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Application.SimpleWordGramDriver">
     <configuration name="SimpleWordGramDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleWordGramDriver" />
@@ -80,6 +69,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,6 +92,21 @@
       <option name="presentableId" value="Default" />
       <updated>1569267115806</updated>
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1581569389432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581569389432</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1581569421543</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581569421543</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -111,15 +127,35 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="214" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1581569253702">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="214" y="310" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.825@0.23.1440.825" timestamp="1581569253702" />
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1581569389074">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1581569421383">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1581569389074" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.825@0.23.1440.825" timestamp="1581569421383" />
+    <state width="676" height="199" key="GridCell.Tab.0.bottom" timestamp="1581569449269">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="676" height="199" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1581569449269" />
+    <state width="676" height="199" key="GridCell.Tab.0.center" timestamp="1581569449268">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="676" height="199" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1581569449268" />
+    <state width="676" height="199" key="GridCell.Tab.0.left" timestamp="1581569449267">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="676" height="199" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1581569449267" />
+    <state width="676" height="199" key="GridCell.Tab.0.right" timestamp="1581569449268">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="676" height="199" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1581569449268" />
     <state x="43" y="246" key="com.intellij.ide.util.TipDialog" timestamp="1581569227403">
       <screen x="0" y="23" width="1440" height="825" />
     </state>
