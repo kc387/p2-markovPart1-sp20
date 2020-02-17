@@ -55,8 +55,8 @@ public class WordGram {
 
 	/**
 	 * Complete appropriate comment here
-	 * @param o
-	 * @return
+	 * @param o is an Object
+	 * @return boolean value, true if the objects are equal and false if they are not
 	 */
 	@Override
 	public boolean equals(Object o) {
@@ -71,6 +71,7 @@ public class WordGram {
 	@Override
 	public int hashCode(){
 		// TODO: complete this method
+		myHash = myWords.toString().hashCode();
 		return myHash;
 	}
 	
@@ -90,6 +91,7 @@ public class WordGram {
 	@Override
 	public String toString(){
 		// TODO: Complete this method
-		return myToString;
+		String a = String.join(" ", myWords);
+		return a;
 	}
 }
