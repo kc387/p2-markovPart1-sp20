@@ -45,18 +45,18 @@ public class WordGram {
 
 	/**
 	 * Complete this comment
-	 * @return
+	 * @return int that is the size of the WordGram
 	 */
 	public int length(){
 		// TODO: change this
-		return 0;
+		return myWords.length;
 	}
 
 
 	/**
 	 * Complete appropriate comment here
 	 * @param o is an Object
-	 * @return boolean value, true if the objects are equal and false if they are not
+	 * @return boolean value, true if WordGram object has the same strings in the same order as this object and false if they are not
 	 */
 	@Override
 	public boolean equals(Object o) {
@@ -64,6 +64,13 @@ public class WordGram {
 			return false;
 		}
 		// TODO: Complete this method
+		WordGram wg = (WordGram) o;
+		if(wg.length() != this.length()) {
+			return false;
+		}
+		else if (!(wg == o)) {
+			return false;
+		}
 
 		return true;
 	}
@@ -79,12 +86,21 @@ public class WordGram {
 	/**
 	 * Create and complete this comment
 	 * @param last is last String of returned WordGram
-	 * @return
+	 * @return new WordGram object with k entries (k is the order of the WordGram)
 	 */
 	public WordGram shiftAdd(String last) {
-		WordGram wg = new WordGram(myWords,0,myWords.length);
-		// TODO: Complete this method
 
+		// TODO: Complete this method
+		String[] a = new String[myWords.length];
+		for(int k = 0; k < myWords.length; k += 1) {
+			if (k == myWords.length - 1){
+				a[k] = last;
+			}
+			else {
+				a[k] = this.myWords[k+1];
+			}
+		}
+		WordGram wg = new WordGram(a,0,myWords.length);
 		return wg;
 	}
 
