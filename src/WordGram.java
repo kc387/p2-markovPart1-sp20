@@ -3,7 +3,7 @@
  * A WordGram represents a sequence of strings
  * just as a String represents a sequence of characters
  * 
- * @author YOUR NAME HERE
+ * @author KATHLEEN CHEN
  *
  */
 public class WordGram {
@@ -23,8 +23,12 @@ public class WordGram {
 		myWords = new String[size];
 		myToString = null;
 		myHash = 0;
-
+		int i = 0;
 		// TODO: initialize myWords
+		for(int k = start; k < size; k +=1) {
+			myWords[i] = source[k];
+			i += 1;
+		}
 	}
 
 	/**
