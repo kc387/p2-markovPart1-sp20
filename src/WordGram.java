@@ -78,7 +78,7 @@ public class WordGram {
 	@Override
 	public int hashCode(){
 		// TODO: complete this method
-		myHash = myWords.toString().hashCode();
+		myHash = this.toString().hashCode();
 		return myHash;
 	}
 	
