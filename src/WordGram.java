@@ -65,20 +65,18 @@ public class WordGram {
 		}
 		// TODO: Complete this method
 		WordGram wg = (WordGram) o;
-		if(wg.length() != this.length()) {
-			return false;
+		if (this.toString().equals(wg.toString())){
+			return true;
 		}
-		else if (!(wg == o)) {
-			return false;
-		}
-
-		return true;
+		return false;
 	}
 
 	@Override
 	public int hashCode(){
 		// TODO: complete this method
-		myHash = this.toString().hashCode();
+		if (myHash == 0) {
+			myHash = this.toString().hashCode();
+		}
 		return myHash;
 	}
 	
@@ -100,14 +98,14 @@ public class WordGram {
 				a[k] = this.myWords[k+1];
 			}
 		}
-		WordGram wg = new WordGram(a,0,myWords.length);
+		WordGram wg = new WordGram(a,0, myWords.length);
 		return wg;
 	}
 
 	@Override
 	public String toString(){
 		// TODO: Complete this method
-		String a = String.join(" ", myWords);
+		String a = String.join(" ", this.myWords);
 		return a;
 	}
 }
