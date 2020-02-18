@@ -23,11 +23,9 @@ public class WordGram {
 		myWords = new String[size];
 		myToString = null;
 		myHash = 0;
-		int i = 0;
 		// TODO: initialize myWords
 		for(int k = start; k < size; k +=1) {
-			myWords[i] = source[k];
-			i += 1;
+			myWords[k] = source[k + start];
 		}
 	}
 
@@ -68,6 +66,7 @@ public class WordGram {
 		if (this.toString().equals(wg.toString())){
 			return true;
 		}
+		
 		return false;
 	}
 
@@ -105,7 +104,9 @@ public class WordGram {
 	@Override
 	public String toString(){
 		// TODO: Complete this method
-		String a = String.join(" ", this.myWords);
-		return a;
+		if(myToString == null) {
+			myToString = String.join(" ", this.myWords);
+		}
+		return myToString;
 	}
 }
