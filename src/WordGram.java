@@ -88,16 +88,11 @@ public class WordGram {
 	public WordGram shiftAdd(String last) {
 
 		// TODO: Complete this method
-		String[] a = new String[myWords.length];
-		for(int k = 0; k < myWords.length; k += 1) {
-			if (k == myWords.length - 1){
-				a[k] = last;
-			}
-			else {
-				a[k] = this.myWords[k+1];
-			}
+		WordGram wg = new WordGram(myWords,0, myWords.length);
+		for(int k = 0; k < myWords.length - 1; k +=1){
+			wg.myWords[k] = myWords[k+1];
 		}
-		WordGram wg = new WordGram(a,0, myWords.length);
+		myWords[myWords.length - 1] = last;
 		return wg;
 	}
 
