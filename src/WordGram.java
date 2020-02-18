@@ -66,7 +66,7 @@ public class WordGram {
 		if (this.toString().equals(wg.toString())){
 			return true;
 		}
-		
+
 		return false;
 	}
 
