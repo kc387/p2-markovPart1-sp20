@@ -4,6 +4,7 @@
     <list default="true" id="eb68d1cd-4e12-496e-a61d-6796dc490324" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/WordGram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WordGram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WordGramBenchmark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WordGramBenchmark.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/WordGramBenchmark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WordGramBenchmark.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.WordGramBenchmark">
+  <component name="RunManager" selected="JUnit.WordGramTest">
     <configuration name="SimpleWordGramDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleWordGramDriver" />
       <module name="p2-markovPart1-sp20" />
@@ -70,8 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordGramBenchmark" />
         <item itemvalue="JUnit.WordGramTest" />
+        <item itemvalue="Application.WordGramBenchmark" />
         <item itemvalue="Application.SimpleWordGramDriver" />
       </list>
     </recent_temporary>
