@@ -24,7 +24,7 @@ public class WordGram {
 		myToString = null;
 		myHash = 0;
 		// TODO: initialize myWords
-		for(int k = start; k < size; k +=1) {
+		for(int k = 0; k < size; k +=1) {
 			myWords[k] = source[k + start];
 		}
 	}
@@ -90,9 +90,9 @@ public class WordGram {
 		// TODO: Complete this method
 		WordGram wg = new WordGram(myWords,0, myWords.length);
 		for(int k = 0; k < myWords.length - 1; k +=1){
-			wg.myWords[k] = myWords[k+1];
+			wg.myWords[k] = wg.myWords[k+1];
 		}
-		myWords[myWords.length - 1] = last;
+		wg.myWords[myWords.length - 1] = last;
 		return wg;
 	}
 
